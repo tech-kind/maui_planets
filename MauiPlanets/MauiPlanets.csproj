@@ -45,7 +45,6 @@
 	<ItemGroup>
 		<None Remove="Models\" />
 		<None Remove="Views\" />
-		<None Remove="Resources\Styles\" />
 		<None Remove="Services\" />
 		<None Remove="Resources\Fonts\Montserrat-Bold.ttf" />
 		<None Remove="Resources\Fonts\Montserrat-Medium.ttf" />
@@ -54,7 +53,6 @@
 	<ItemGroup>
 		<Folder Include="Models\" />
 		<Folder Include="Views\" />
-		<Folder Include="Resources\Styles\" />
 		<Folder Include="Services\" />
 	</ItemGroup>
 	<ItemGroup>
