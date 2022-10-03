@@ -52,10 +52,12 @@
 	</ItemGroup>
 	<ItemGroup>
 		<Folder Include="Models\" />
-		<Folder Include="Views\" />
 		<Folder Include="Services\" />
 	</ItemGroup>
 	<ItemGroup>
+	  <MauiXaml Update="Views\PlanetsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\StartPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

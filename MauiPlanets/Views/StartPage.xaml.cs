@@ -1,3 +1,5 @@
+using Microsoft.Maui.Platform;
+
 namespace MauiPlanets.Views;
 
 public partial class StartPage : ContentPage
@@ -33,5 +35,11 @@ public partial class StartPage : ContentPage
 
         // Commit the animation
         parentAnimation.Commit(this, "TransitionAnimation", 16, 3000, null, null);
+    }
+
+    private async void ExploreNow_Clicked(object sender, EventArgs e)
+    {
+        // Application.Current.MainPage = new NavigationPage(new PlanetsPage());
+        await Navigation.PushAsync(new PlanetsPage());
     }
 }
