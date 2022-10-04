@@ -160,11 +160,13 @@
                         </Label.FormattedText>
                     </Label>
 
+                    <!--ItemSizingStrategyに「MeasureAllItems」を指定しないとうまく描画されない-->
                     <CollectionView
                         x:Name="lstPopularPlanets"
                         HeightRequest="280"
                         SelectionMode="Single"
-                        SelectionChanged="Planets_SelectionChanged">
+                        SelectionChanged="Planets_SelectionChanged"
+                        ItemSizingStrategy="MeasureAllItems">
 
                         <CollectionView.ItemsLayout>
                             <LinearItemsLayout
@@ -230,11 +232,13 @@
                         </Label.FormattedText>
                     </Label>
 
+                    <!--ItemSizingStrategyに「MeasureAllItems」を指定しないとうまく描画されない-->
                     <CollectionView
                         x:Name="lstAllPlanets"
                         HeightRequest="160"
                         SelectionMode="Single"
-                        SelectionChanged="Planets_SelectionChanged">
+                        SelectionChanged="Planets_SelectionChanged"
+                        ItemSizingStrategy="MeasureAllItems">
 
                         <CollectionView.ItemsLayout>
                             <LinearItemsLayout
