@@ -46,9 +46,6 @@
 		<None Remove="Models\" />
 		<None Remove="Views\" />
 		<None Remove="Services\" />
-		<None Remove="Resources\Fonts\Montserrat-Bold.ttf" />
-		<None Remove="Resources\Fonts\Montserrat-Medium.ttf" />
-		<None Remove="Resources\Fonts\Montserrat-SemiBold.ttf" />
 	</ItemGroup>
 	<ItemGroup>
 		<Folder Include="Models\" />
@@ -64,11 +61,6 @@
 	  <MauiXaml Update="Views\StartPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	</ItemGroup>
-	<ItemGroup>
-		<MauiFont Include="Resources\Fonts\Montserrat-Bold.ttf" />
-		<MauiFont Include="Resources\Fonts\Montserrat-Medium.ttf" />
-		<MauiFont Include="Resources\Fonts\Montserrat-SemiBold.ttf" />
 	</ItemGroup>
 
 </Project>
