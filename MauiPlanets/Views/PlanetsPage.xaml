@@ -341,6 +341,20 @@
                         HorizontalOptions="Center"
                         Style="{StaticResource MenuLabelStyle}" />
 
+                    <Image
+                        WidthRequest="30"
+                        HeightRequest="30"
+                        Source="imgprofile.png"
+                        Grid.Row="0"
+                        Grid.Column="2"
+                        HorizontalOptions="Center" />
+                    <Label
+                        Text="プロフィール"
+                        Grid.Row="1"
+                        Grid.Column="2"
+                        HorizontalOptions="Center"
+                        Style="{StaticResource MenuLabelStyle}" />
+
                 </Grid>
 
             </Border>
